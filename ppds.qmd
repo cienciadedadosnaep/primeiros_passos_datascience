@@ -7,7 +7,21 @@ format:
 
 ## Dados
 
+
 [Dados Salvador](https://novo.qedu.org.br/municipio/2927408-salvador) 
+
+[Colégio Estadual Henriqueta Catharino](https://novo.qedu.org.br/escola/29192790-ee-colegio-estadual-henriqueta-martins-catharino/)
+
+[Colégio Estadual Ypiranga](https://novo.qedu.org.br/escola/29182182-ee-colegio-estadual-ypiranga-educacao-integral/)  
+
+[Colégio Estadual Deputado Manoel Novaes](https://novo.qedu.org.br/escola/29182131-ee-colegio-estadual-deputado-manoel-novaes/)
+
+[Colégio Estadual da Bahia Central](https://novo.qedu.org.br/escola/29182123-ee-colegio-estadual-da-bahia-central/)
+
+[Colégio Estadual Mário Costa Neto](https://novo.qedu.org.br/escola/29193699-ee-colegio-estadual-mario-costa-neto/)
+
+[Escola Municipal Cidade Jequié](https://novo.qedu.org.br/escola/29190061-escola-municipal-cidade-de-jequie/)
+
 
 ```{r}
 library(sidrar)
