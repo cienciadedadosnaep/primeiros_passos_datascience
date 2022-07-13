@@ -13,8 +13,9 @@ format:
  - Instalacao R e Rstudio [Laio/Robson - 18/07]
  - SQL/MySQL - [19/07 - Cedma/Aline/Robson]
  - Pacote Tydiverse (dplyr,ggplot2,tidyr,lubridate) [20/07 - Bruna/William]
-python/pandas/chuncks (Robson/Laio(python)* 21/07)
- - Mapas/leaflet/QGIS [Robson/Elicelma 22/07]
+ - Python/Pandas/chuncks (Robson/Laio(python)* 21/07)
+ - Mapas/Leaflet/QGIS [Robson/Elicelma 22/07]
+
 
 
 
@@ -36,8 +37,44 @@ python/pandas/chuncks (Robson/Laio(python)* 21/07)
 [Escola Municipal Cidade Jequié](https://novo.qedu.org.br/escola/29190061-escola-municipal-cidade-de-jequie/)
 
 
+## Vscode 
 
+Instalar o [Vscode](https://code.visualstudio.com/Download) 
 
+## Git e GitHub 
+
+O primeiro passo para utilizar o Git é realizar sua instalação 
+ por meio do link [Download Git](https://git-scm.com/downloads). 
+
+1. git init 
+2. git add codigo.R 
+3. git commit -m "definicao do arquivo"
+4. git log
+
+**alterar arquivo -codigo.R- incluindo algum cálculo.**
+
+5. git add codigo.R
+6. git commit -m "update"
+7. git status 
+8. git log 
+9. git show *colocar o número do commit*
+
+**linhas paralelas**
+
+10. git checkout feature/funcao
+
+**criar função no arquivo codigo.R**
+
+11. git add codigo.R 
+12. git commit -m "inclusao da funcao"
+13. git checkout master
+14. git 
+
+### Principais comandos
+
+Trabalhar com 
+
+## Coleta de dados SidraR
 
 ```{r}
 library(sidrar)
