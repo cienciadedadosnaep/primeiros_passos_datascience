@@ -5,6 +5,19 @@ format:
     theme: journal
 ---
 
+## Datas 
+
+### Cronograma:
+
+ - Github  (Instlacao git, definição de versionamento, uso no cmd, comandos principais) [Laio/Robson - 18/07]
+ - Instalacao R e Rstudio [Laio/Robson - 18/07]
+ - SQL/MySQL - [19/07 - Cedma/Aline/Robson]
+ - Pacote Tydiverse (dplyr,ggplot2,tidyr,lubridate) [20/07 - Bruna/William]
+python/pandas/chuncks (Robson/Laio(python)* 21/07)
+ - Mapas/leaflet/QGIS [Robson/Elicelma 22/07]
+
+
+
 ## Dados
 
 
@@ -21,6 +34,9 @@ format:
 [Colégio Estadual Mário Costa Neto](https://novo.qedu.org.br/escola/29193699-ee-colegio-estadual-mario-costa-neto/)
 
 [Escola Municipal Cidade Jequié](https://novo.qedu.org.br/escola/29190061-escola-municipal-cidade-de-jequie/)
+
+
+
 
 
 ```{r}
