@@ -68,11 +68,11 @@ O primeiro passo para utilizar o Git é realizar sua instalação
 11. git add codigo.R 
 12. git commit -m "inclusao da funcao"
 13. git checkout master
-14. git 
 
-### Principais comandos
+**com o comando 13. retornamos para a branch master.**
 
-Trabalhar com 
+14. git merge feature/funcao
+
 
 ## Coleta de dados SidraR
 
