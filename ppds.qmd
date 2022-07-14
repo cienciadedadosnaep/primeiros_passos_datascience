@@ -74,6 +74,11 @@ O primeiro passo para utilizar o Git é realizar sua instalação
 14. git merge feature/funcao
 
 
+
+## R e Rstudio
+
+Instalar e configurar Git
+
 ## Coleta de dados SidraR
 
 ```{r}
@@ -85,3 +90,11 @@ dado <- sidrar::get_sidra(3741,geo = "City",geo.filter = 2927408,period = c(last
         filter(`Situação de ocupação na semana de referência` %in% c('Ocupadas') )
 ```
 
+
+## SQL 
+
+
+## Pandas
+
+
+## Mapas
