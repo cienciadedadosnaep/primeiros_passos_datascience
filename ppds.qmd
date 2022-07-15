@@ -49,9 +49,16 @@ dados referentes ao site (re)conhecendo Salvador.
  - Mapas/Leaflet/QGIS [Robson/Elicelma 22/07]
 
 ## Instrutores
-
+ **Coordenação:**Karla Esquerre e Robson W. S. Pessoa
+ 
+ **Instrutores:**
+ 
+ - Alinne Matos
+ - Bruna Victoria Climaco Reis dos Santos
+ - Cedma Ranielly Santos Firmino
  - Laio Luis Barbosa Ribeiro 
- - 
+ - William Cardoso Sacramento
+ 
 
 
 ## Atividades:
