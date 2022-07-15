@@ -1,10 +1,12 @@
 ---
-title: "Primeiros Passos Data Science"
+title: "Primeiros Passos"
 format:
   html:
     theme: journal
 ---
 
+
+![](logo.png)
 
 ## Apresentação:
 
