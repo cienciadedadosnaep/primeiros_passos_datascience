@@ -1,13 +1,45 @@
 ---
-title: "Primeiros Passos"
+title: "Primeiros Passos Data Science"
 format:
   html:
     theme: journal
 ---
 
-## Datas 
 
-### Cronograma:
+## Apresentação:
+
+O projeto Ciência de Dados na Educação Pública tem desenvolvido atividades 
+que exigem a utilização de diversas ferramentas aplicadas à área de ciência 
+de dados. A cada semestre é realizado um pequeno treinamento que permite 
+que os novos integrantes sejam recepicionados dentro da metodologia 
+do projeto e ao mesmo tempo tornem-se autônomos no desenvolvimento de 
+organização de dados, visualização e transformação em materiais didáticos. 
+O curso é aberto a participantes de graduação e pós-graduação interessados 
+em iniciar na área de tecnologia.
+
+## Objetivo:
+
+Desenvolver habilidades no uso de ferramentas de consulta, manipulação e 
+transformação de dados para produção de materiais didáticos e divulgação de 
+dados referentes ao site (re)conhecendo Salvador.
+
+
+## Conteúdos 
+
+- Git: *git init*,*git add*, *git commit -m*, *git checkout*, *git merge*, 
+*git status*, *git log*, *git pull*, *git pull request*, *git push*, *git fetch*.
+- Github: *Criação de conta do Github*
+- Instalação do *R* e *Rstudio*
+- Instalação *Vscode*
+- Configuração da conta do *Github* no *Rstudio* e *Vscode*
+- MySQL: *SHOW DATABASES*, *USE*, *DESCRIBE*, *INSERT INTO*, *SELECT*, *FROM*, *WHERE*
+- Instalação *MySQL* e *Workbench*
+- Conexão Banco: *R* e *Python*
+- Tidyverse: *readr*, *dplyr* *(select(),filter(),group_by(),summarise(),mutate())*, *tidyr* *(gather(),spread())*, *lubridate*, *ggplot2* *(geom_bar(),geom_col())*
+- Python: *Vscode*/*Colab*/*Jupyter*,**Pandas*,*Numpy*,*read_csv(...,chuncksize=...)*  
+
+
+## Datas 
 
  - Github  (Instlacao git, definição de versionamento, uso no cmd, comandos principais) [Laio/Robson - 18/07]
  - Instalacao R e Rstudio [Laio/Robson - 18/07]
@@ -16,10 +48,19 @@ format:
  - Python/Pandas/chuncks (Robson/Laio(python)* 21/07)
  - Mapas/Leaflet/QGIS [Robson/Elicelma 22/07]
 
+## Instrutores
+
+ - Laio Luis Barbosa Ribeiro 
+ - 
 
 
+## Atividades:
 
-## Dados
+Após a realização do curso *Primeiros Passos Data Science*, os 
+participantes serão acompanhados por mais 1 semana de suporte 
+para desenvolver um pequeno relatório de uma das escolas participantes 
+do projeto *Ciência de Dados na Educação Pública* utilizando as ferramentas
+apresentadas no curso.  
 
 
 [Dados Salvador](https://novo.qedu.org.br/municipio/2927408-salvador) 
@@ -37,64 +78,31 @@ format:
 [Escola Municipal Cidade Jequié](https://novo.qedu.org.br/escola/29190061-escola-municipal-cidade-de-jequie/)
 
 
-## Vscode 
+## Instalações
+Por favor, para facilitar o andamento do curso instalar previamente
+os seguintes softwares indicados nas subseções a seguir.
+
+### Vscode e Colab 
 
 Instalar o [Vscode](https://code.visualstudio.com/Download) 
 
-## Git e GitHub 
+Acessar [Google Colaboratory - Colab](https://colab.research.google.com/) 
+
+### Git e GitHub 
 
 O primeiro passo para utilizar o Git é realizar sua instalação 
  por meio do link [Download Git](https://git-scm.com/downloads). 
 
-1. git init 
-2. git add codigo.R 
-3. git commit -m "definicao do arquivo"
-4. git log
+### R e Rstudio
 
-**alterar arquivo -codigo.R- incluindo algum cálculo.**
-
-5. git add codigo.R
-6. git commit -m "update"
-7. git status 
-8. git log 
-9. git show *colocar o número do commit*
-
-**linhas paralelas**
-
-10. git checkout feature/funcao
-
-**criar função no arquivo codigo.R**
-
-11. git add codigo.R 
-12. git commit -m "inclusao da funcao"
-13. git checkout master
-
-**com o comando 13. retornamos para a branch master.**
-
-14. git merge feature/funcao
+1. [Downlaod R](https://cran.r-project.org/bin/windows/base/)
+- Instalação do R
+2. [Download Rstudio](https://www.rstudio.com/products/rstudio/download/)
+- Instalaçao do Rstudio
 
 
+### Instalação MySQL 
 
-## R e Rstudio
-
-Instalar e configurar Git
-
-## Coleta de dados SidraR
-
-```{r}
-library(sidrar)
-library(dplyr)
-sidrar::info_sidra(3741)
-dado <- sidrar::get_sidra(3741,geo = "City",geo.filter = 2927408,period = c(last = "12"))
-    dado %>% 
-        filter(`Situação de ocupação na semana de referência` %in% c('Ocupadas') )
-```
-
-
-## SQL 
-
-
-## Pandas
-
-
-## Mapas
+1. [Download MySQL](https://dev.mysql.com/downloads/installer/)
+2. [Instalação *MySQL Workbench*](https://dev.mysql.com/downloads/workbench/) 
+3. [Cheat sheet](https://www.mysqltutorial.org/mysql-cheat-sheet.aspx)
